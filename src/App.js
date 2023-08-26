@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import SideBar from "./components/Sidebar";
+import Footer from "./components/Footer";
+import Content from "./components/Content";
+import ContentTwo from "./components/ContentTwo";
+
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="container">
+        <Router>
+          <SideBar></SideBar>
+
+          <Switch>
+            <Route exact path="/">
+              {" "}
+              <ContentTwo key="tokenaddress" />{" "}
+            </Route>
+            <Route exact path="/tokenaddress">
+              {" "}
+              <ContentTwo key="tokenaddress" />{" "}
+            </Route>
+            <Route exact path="/pairaddress">
+              {" "}
+              <Content key="pairaddress" />{" "}
+            </Route>
+          </Switch>
+        </Router>
+      </div>
+    </>
   );
 }
 

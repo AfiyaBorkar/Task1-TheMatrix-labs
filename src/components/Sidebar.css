@@ -1,0 +1,150 @@
+/* SideNavigation.css */
+
+/* Reset default list styling */
+.p-side-navigation__list {
+    list-style: none;
+    background-color:  #292929;
+     /* Dark theme */
+
+    padding: 0;
+    
+  }
+
+
+  .p-side-navigation__social-icons {
+    width: auto;
+    height: auto;
+    top: 533px;
+    left: 34px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+  }
+  
+  /* Individual social media icon styles */
+  .p-side-navigation__social-icon {
+    width: 24px;
+    height: 24px;
+    background-color:#F30050
+  }
+  
+  #drawer{
+    width: 288px;
+    height: 982px;
+    background-color:  #292929
+    ; /* Dark theme */
+    color: white;
+    position: fixed;
+    top: 1px;
+    left: 0; /* Position from the left edge */
+    border-radius: 0px 32px 32px 0px;
+    display: flex;
+    flex-direction: column;
+
+  }
+  /* Header styles */
+.p-side-navigation__header {
+    padding: 20px;
+    text-align: center;
+  }
+  /* Basic styles for the side navigation */
+  .p-side-navigation--icons {
+    /* Add any positioning and sizing styles as needed */
+  }
+  
+  /* Styling for the navigation toggle link */
+  .p-side-navigation__toggle {
+    /* Add styling for the toggle link */
+  }
+  
+  /* Overlay styles */
+  .p-side-navigation__overlay {
+    /* Add overlay styles */
+  }
+  
+  /* Drawer styles */
+  .p-side-navigation__drawer {
+    /* Add drawer styles */
+  }
+  
+  /* Drawer header styles */
+  .p-side-navigation__drawer-header {
+    /* Add drawer header styles */
+  }
+  
+  /* Item and link styles */
+  .p-side-navigation__item {
+    /* Add item styles */
+  }
+
+  
+  
+  .p-side-navigation__link {
+    /* Add link styles */
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s;
+  }
+  
+  .p-side-navigation__link:hover {
+    background-color: #555;
+  }
+  
+  /* Dark theme */
+  .p-side-navigation--icons {
+    background-color: #222;
+  }
+
+  .p-side-navigation__header-text {
+    color: white;
+    font-family: Pacifico, cursive;
+    font-size: 24px;
+  }
+  
+
+  /* SideNavigation.css */
+
+/* ... (previous styles) ... */
+
+/* Token Address link styles */
+.token-address {
+    width: 288px;
+    height: 65px;
+    
+  }
+  .p-side-navigation__item{
+    width: 288px;
+    height: 65px;
+  }
+
+.token-address-content{
+ 
+  
+    font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+
+    
+}
+
+.pair-address{
+ 
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+  
+  
+  /* Additional styling for specific elements as needed */
+  

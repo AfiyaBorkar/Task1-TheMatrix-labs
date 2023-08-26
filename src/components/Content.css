@@ -1,0 +1,96 @@
+/* Content.css */
+
+/* Search box styles */
+.p-search-box {
+    width: 435px;
+    height: 50px;
+    top: 100px;
+    left: 353px;
+    border-radius: 20px;
+    border: 1px solid #FFFFFF;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: transparent !important;
+
+    
+  }
+  
+  .p-box_input,#search {
+    flex-grow: 1;
+    border: none;
+   margin-top: 10px;
+    font-size: 16px;
+    color: white;
+    background: none;
+    outline: none;
+    background-color: transparent !important;
+  }
+  .p-box_input:focus{
+    background: none;
+
+  }
+  #search:focus {
+    background: none;
+    -webkit-appearance: none;
+
+ }
+  #search:active {
+     background: none;
+     -webkit-appearance: none;
+  }
+
+  
+  
+
+  
+  .p-search-box__button {
+  
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    font-size: 16px;
+    color: white;
+    outline: none;
+  }
+
+  .p-card{
+    background-color: transparent !important;
+    border: none;
+    margin-top: 20px !important;
+    
+  }
+
+ /* Your stylesheet */
+
+/* Button styles */
+.p-button--base {
+    background: linear-gradient(95.24deg, #7C0F35 7.59%, #581266 104.01%);
+    width: 156px;
+    height: 52px;
+
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  
+  /* Additional styling for specific elements as needed */
+  .content h2{
+width: 254px;
+height: 20px;
+
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 350px;
+color: white;
+margin-top: 100px;
+
+  }
